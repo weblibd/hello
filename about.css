@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+.about-section .about{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background: linear-gradient(#0f4675,#3898ec 50%, #fff 50%, #fff 100%);
+    flex-flow: column;
+}
+.about-section .about h1{
+    /* padding-top: 40px; */
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 10px;
+    position: relative;
+}
+.about-section .about h1::after{
+    content: '';
+    position: absolute;
+    width: 110px;
+    height: 3px;
+    background-color: #ffffff;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 20px;
+    
+}
+.about-section .about .container{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    /* padding: 20px 30px; */
+    padding: 50px 60px 30px 60px;
+    /* margin: 0 10px; */
+    gap: 50px;
+    
+}
+.about-section .about .container .b-box{
+    position: relative;
+    width: 65%;
+    background:rgba(0,0,0,.6);
+    backdrop-filter: blur(10px);
+    padding: 60px 40px 60px;
+    box-shadow: 0 15px 45px rgba(0,0,0,.1);
+    margin: 5px;
+    border-radius: 8px;
+}
+.about-section .about .container .s-box{
+    position: relative;
+    width: 35%;
+    background:rgba(0,0,0,.6);
+    backdrop-filter: blur(10px);
+    padding: 60px 40px 60px;
+    box-shadow: 0 15px 45px rgba(0,0,0,.1);
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.about-section .about .container .b-box img{
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 10px 0 0px;
+}
+.about-section .about .container .b-box h2{
+    width: auto;
+    border-radius: 6px;
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-bottom:10px ;
+}
+.about-section .about .container .s-box .fa{
+    display: block;
+    color: #fff;
+    margin: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    padding: 0 0 20px;
+}
+
+.about-section .about .container  h3{
+    color: #fff;
+    text-align: center;
+    padding: 0 0 20px;
+}
+.about-section .about .container p{
+    color: #fff;
+
+}
+
+
+
+
+
+/* ---------------What we do------------------ */
+
+
+
+.about-section .whatwedo h1{
+    
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    color: #2196f3;
+    padding-bottom: 8px;
+
+}
+.about-section .whatwedo h1::after{
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 4px;
+    background-color: #2196f3;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 20px;
+}
+
+.about-section .whatwedo .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 10px;
+    /* gap: 25px; */
+}
+.about-section .whatwedo .container .box{
+    position: relative;
+    width: 280px;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+    border-radius: 4px;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.about-section .whatwedo .container .box:before{
+    content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, .2);
+    z-index: 2;
+    pointer-events: none;
+}
+.about-section .whatwedo .container .box .icon{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    color: #ffffff;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    transition: 1s;
+
+}
+/* ------- */
+.about-section .whatwedo .container .box:nth-child(1) .icon{
+    box-shadow: 0 0 0 0 #2196f3;
+    background: #2196f3;
+}
+.about-section .whatwedo .container .box:nth-child(1):hover .icon{
+    box-shadow: 0 0 0 400px #2196f3;
+}
+.about-section .whatwedo .container .box:nth-child(2) .icon{
+    box-shadow: 0 0 0 0 #2196f3;
+    background: #2196f3;
+}
+.about-section .whatwedo .container .box:nth-child(2):hover .icon{
+    box-shadow: 0 0 0 400px #2196f3;
+}
+.about-section .whatwedo .container .box:nth-child(3) .icon{
+    box-shadow: 0 0 0 0 #2196f3;
+    background: #2196f3;
+}
+.about-section .whatwedo .container .box:nth-child(3):hover .icon{
+    box-shadow: 0 0 0 400px #2196f3;
+}
+.about-section .whatwedo .container .box:nth-child(4) .icon{
+    box-shadow: 0 0 0 0 #2196f3;
+    background: #2196f3;
+}
+.about-section .whatwedo .container .box:nth-child(4):hover .icon{
+    box-shadow: 0 0 0 400px #2196f3;
+}
+/* ---- */
+.about-section .whatwedo .container .box .content{
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+.about-section .whatwedo .container .box:hover .content{
+    color: #fff;
+}
+
+.about-section .whatwedo .container .box .content h3{
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 0;
+}
+.about-section .whatwedo .container .box .content p{
+    margin: 0;
+    padding: 0;
+}
+/* .container .box .content a{
+    display: inline-block;   
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 2);
+
+} */
+
+
+
+
+/* responsive code */
+
+@media(max-width:850px){
+    .about-section .about .container{
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row;
+        /* padding: 20px 30px; */
+        padding: 50px 60px 30px 60px;
+        /* margin: 0 10px; */
+        gap: 50px;
+        
+    }
+    .about-section .about .container{
+        padding: 30px 20px 20px 20px;
+        gap: 10px;
+    }
+
+}
+@media(max-width:730px){
+    .about-section .about .container{
+        gap: 18px;
+        flex-flow: column;
+        padding: 30px 3% 20px 3%;
+        transition: 0.5s;
+    }
+    .about-section .about .container .b-box{
+        width: initial;
+        margin: 5px;
+    }
+    .about-section .about .container .s-box{
+        width: initial;
+        margin: 5px;
+    }
+}
+
+
+/* what we do responsive */
+@media(max-width:950px){
+    .about-section .whatwedo .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px 10px;
+        /* gap: 25px; */
+    }
+    .about-section .whatwedo .container .box{
+        position: relative;
+        width: 280px;
+        padding: 30px;
+        background: #fff;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+        border-radius: 4px;
+        margin: 15px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .about-section .whatwedo .container{
+        justify-content: center;
+        gap: 20px 60px;
+        padding: 30px 20px;
+    }
+    .about-section .whatwedo .container .box{
+        margin: 10px;
+
+}
+}
